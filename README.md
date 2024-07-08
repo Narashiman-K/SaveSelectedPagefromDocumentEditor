@@ -1,64 +1,62 @@
-# PSPDFKit for Web Example – Vite.js
+# SaveSelectedPagefromDocumentEditor
 
-This example shows how to integrate [PSPDFKit for Web](https://pspdfkit.com/web/) into a [Vite.js](https://vitejs.dev/) with React app.
+This project allows you to save the selected pages from the DocumentEditor UI to the desired path. It is built with React, TypeScript, and Vite.
 
 ## Prerequisites
 
-- [Node.js](http://nodejs.org/)
-
-## Support, Issues and License Questions
-
-PSPDFKit offers support for customers with an active SDK license via https://pspdfkit.com/support/request/
-
-Are you [evaluating our SDK](https://pspdfkit.com/try/)? That's great, we're happy to help out! To make sure this is fast, please use a work email and have someone from your company fill out our sales form: https://pspdfkit.com/sales/
+- Node.js (version 14 or later)
+- npm (version 6 or later)
 
 ## Getting Started
 
-Clone the repo:
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/Narashiman-K/SaveSelectedPagefromDocumentEditor.git
+    cd SaveSelectedPagefromDocumentEditor
+    ```
 
-```bash
-git clone https://github.com/PSPDFKit/pspdfkit-web-example-vite.git
-cd pspdfkit-web-example-vite
-```
+2. Install the project dependencies:
+    ```sh
+    npm install
+    ```
 
-Install the project dependencies:
+## Running the Development Server
 
-```shell script
-npm install
-```
+To start the development server, run:
+    ```sh
+    npm run dev
+    ```
 
-## Running the Example
+You can now open [http://localhost:5173](http://localhost:5173) in your browser and enjoy!
 
-We are ready to launch the app! 🎉
-
-```shell script
-npm run dev
-```
-
-You can now open http://localhost:5173 in your browser and enjoy!
+## Building for Production
 
 To create a production build of the app and serve it:
+    ```sh
+    npm run build
+    npm run preview
+    ```
 
-```shell script
-npm run build
-npm run preview
-```
-
-You can now preview your build http://localhost:4173 in your browser.
-
-Enjoy 🍕
-
-## React Component
-
-The React component which implements the PSPDFKit for Web integration can be found at `src/components/PdfViewerComponent.jsx`.
-
-In order to make the PSPDFKit SDK assets available they have to be copied from the `node_modules/pspdfkit/dist` folder to `public/pspdfkit-lib` folder. For that purpose this example uses a copy plugin which you can find at `vite.config.js`.
+Open your browser and navigate to [http://localhost:4173](http://localhost:4173) to see the application in action.
 
 ## License
 
-This software is licensed under a [modified BSD license](LICENSE).
+This project is licensed under the BSD license. See the LICENSE file for more details.
 
 ## Contributing
 
-Please ensure
-[you have signed our CLA](https://pspdfkit.com/guides/web/current/miscellaneous/contributing/) so that we can accept your contributions.
+Please ensure you have signed our CLA so that we can accept your contributions.
+
+## Support, Issues and License Questions
+
+PSPDFKit offers support for customers with an active SDK license via [PSPDFKit Support](https://pspdfkit.com/support/request/).
+
+Are you [evaluating our SDK](https://pspdfkit.com/try/)? That's great, we're happy to help out! To make sure this is fast, please use a work email and have someone from your company fill out our [sales form](https://pspdfkit.com/sales/).
+
+## About
+
+This project allows you to save the selected pages from the DocumentEditor UI to the desired path.
+
+## Author
+
+Narashiman Krishnamurthy
