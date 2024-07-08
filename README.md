@@ -22,7 +22,7 @@ This project allows you to save the selected pages from the DocumentEditor UI to
 
 ## Running the Development Server
 
-To start the development server, run:
+To start the development server, run
     ```sh
     npm run dev
     ```
