@@ -22,20 +22,20 @@ This project allows you to save the selected pages from the DocumentEditor UI to
 
 ## Running the Development Server
 
-To start the development server, run
-    ```sh
-    npm run dev
-    ```
+    To start the development server, run
+        ```sh
+        npm run dev
+        ```
 
 You can now open [http://localhost:5173](http://localhost:5173) in your browser and enjoy!
 
 ## Building for Production
 
-To create a production build of the app and serve it:
-    ```sh
-    npm run build
-    npm run preview
-    ```
+    To create a production build of the app and serve it:
+        ```sh
+        npm run build
+        npm run preview
+        ```
 
 Open your browser and navigate to [http://localhost:4173](http://localhost:4173) to see the application in action.
 
